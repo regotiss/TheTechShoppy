@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The TechShoppy:Electrical Category</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/branchstyle.css">
+		<script language="javascript" type="text/javascript">
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="big_wrapper">
+			<div id="wrapper">	
+				<header id="header">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></div></a>
+					<div id="search_box">
+					  <form action="Result" method="get">
+						<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+						<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+					  </form>
+					</div>
+				</header>
+				
+				<nav id="nav">
+					<ol id="menu">
+					
+						<li><a href="#">Categories</a>
+							<ol>
+								<li><a href="cseitAlgo.html">CSE and IT</a></li>
+								<li><a href="electronics.html">Electronics</a></li>
+								<li><a href="electrical.html">Electrical</a></li>
+								<li><a href="civil.html">Civil</a></li>
+								<li><a href="mechanical.html">Mechanical</a></li>
+							</ol>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ol>
+				</nav>	
+			</div>
+			<div id="mainsection">
+				
+				<div id="book_wrapper">
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Control+Systems+Engineering+by+Norman+S.+Nise"><div id="text">Control Systems Engineering by Norman S. Nise</div>
+							<img src="images/books/electrical/control-systems-engineering.jpeg" width="150px" height="180px"/>
+							
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Digital+Signal+Processing+by+P.+Ramesh+Babu"><div id="text">Digital Signal Processing by P. Ramesh Babu</div>
+							<img src="images/books/electrical/digital-signal-processing.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Electrical+Machines+(AC+&+DC+Machines)+by+J+B+Gupta"><div id="text">Electrical Machines by J B Gupta</div>
+							<img src="images/books/electrical/elmc.jpg" width="150px" height="180px"/>
+							</a>
+						</div>	
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Fundamentals+of+Electric+Circuits+by+Alexander+and+Sadiku"><div id="text">Fundamentals of Electric Circuits by Alexander and Sadiku</div>
+							<img src="images/books/electrical/fundamentals of electric circuit.jpg" width="150px" height="180px"/>
+							</a>
+						</div>
+						
+					</div>
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Signals+and+Systems+by+Oppenheim+and+Willsky"><div id="text">Signals and Systems by Oppenheim and Willsky</div>
+							<img src="images/books/electrical/signals-and-systems.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electrical&book=Power+Electronics+by+P+S+Bimbhra"><div id="text">Power Electronics by P S Bimbhra</div>
+							<img src="images/books/electrical/power-electronics.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Microprocessor+Architecture+,+Programming+,+and+Applications"><div id="text">Microprocessor Architecture, Programming, and Applications</div>
+							<img src="images/books/eln/microprocessor-architecture-programming-and-applications-with-the-8085.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>About</title>
+	
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/branchstyle.css">
+		<script language="javascript" type="text/javascript">
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="big_wrapper">
+			<div id="wrapper">	
+				<header id="header">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></div></a>
+					<div id="search_box">
+					  <form action="#" method="get">
+						<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+						<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+					  </form>
+					</div>
+				</header>
+				
+				<nav id="nav">
+					<ol id="menu">
+					
+						<li><a href="#">Categories</a>
+							<ol>
+								<li><a href="cseitAlgo.html">CSE and IT</a></li>
+								<li><a href="electronics.html">Electronics</a></li>
+								<li><a href="electrical.html">Electrical</a></li>
+								<li><a href="civil.html">Civil</a></li>
+								<li><a href="mechanical.html">Mechanical</a></li>
+							</ol>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ol>
+				</nav>	
+			</div>
+			<section id="section" style=margin:10px>
+								
+					<h2>About</h2>
+					<p>
+						The TechShoppy is website created to just simplify shoppy.This website designed specially for Enginnering Students.<br/>
+						It covers all important books in respective field.We have taken results from Amazon,Flipkart website for searched books.<br/>
+						
+					</p>
+					<h3>Ecommerce Websites Used :</h3>
+					<img src="images/amazon.png" width="250px" height="80px"/>
+					<img src="images/flipkart.jpg" width="250px" height="80px"/>
+					
+			</section>
+			<!-- /.row -->
+
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

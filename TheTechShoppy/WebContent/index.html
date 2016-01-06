@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The TechShoppy</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script>
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body id="body">
+		<div id="big-wrapper">
+			<div id="wrapper">
+			<header id="header">
+				<div id="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+				<div id="search_box">
+				  <form action="Result" method="get">
+					<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+					<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+				  </form>
+				</div>
+			</header>
+			
+			<nav id="nav">
+				<ol id="menu">
+				
+					<li><a href="#">Categories</a>
+						<ol>
+							<li><a href="cseitAlgo.html">CSE and IT</a></li>
+							<li><a href="electronics.html">Electronics</a></li>
+							<li><a href="electrical.html">Electrical</a></li>
+							<li><a href="civil.html">Civil</a></li>
+							<li><a href="mechanical.html">Mechanical</a></li>
+						</ol>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ol>
+			</nav>
+			<div id="category">
+				<h2>Categories</h2>
+				
+				<ul>
+				<li><div class="flip3d">
+					<div class="back" ><a href="cseitAlgo.html"><div class="text">CSE AND IT</div><img src="images/book.png" /></a></div>
+					<div class="front"><img src="images/cse it.jpg" width=220 height=180></div>
+				</div></li>
+				<li><div class="flip3d">
+					<div class="back" ><a href="electronics.html"><div class="text">EELECTRONICS</div><img src="images/book.png" /></a></div>
+					<div class="front"><img src="images/electronics1.jpg" width=220 height=180></div>
+				</div></li>
+				<li><div class="flip3d">
+					<div class="back"><a href="electrical.html"><div class="text">ELECTRICAL</div><img src="images/book.png" /></a></div>
+					<div class="front"><img src="images/electrical1.jpg" width=220 height=180></div>
+				</div></li>
+				<li><div class="flip3d">
+					<div class="back" ><a href="civil.html"><div class="text">CIVIL</div><img src="images/book.png" /></a></div>
+					<div class="front"><img src="images/civil1.jpg" width=220 height=180></div>
+				</div></li>	
+				<li><div class="flip3d">
+					<div class="back" ><a href="mechanical.html"><div class="text">MECHANICAL</div><img src="images/book.png" /></a></div>
+					<div class="front"><img src="images/mechanical1.jpg" width=220 height=180></div>
+				</div></li>
+				</ul>
+				
+			</div>
+			
+			<section id="section">
+				<h1>The TechShoppy</h1>
+				<p>
+				E-commerce site grows rapidly since it allows someone to shop online quickly and easily without having to
+				meet seller directly. This saves time, effort, and cost in transaction although it doesn' t always provide what
+				the customers need. They must visit several e-commerce sites to get appropriate product. Google shopping
+				has already accumulated some foreign e-commerce sites, but it is not available for specially for Enginners. Therefore, it
+				is necessary to have an Enginner website or site summary that can show product summary from several
+				e-commerce site. 
+				</p>
+			</section>
+			</div>
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

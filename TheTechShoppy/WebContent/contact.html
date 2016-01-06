@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Contact</title>
+	
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/branchstyle.css">
+		<script language="javascript" type="text/javascript">
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="big_wrapper">
+			<div id="wrapper">	
+				<header id="header">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></div></a>
+					<div id="search_box">
+					  <form action="Result" method="get">
+						<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+						<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+					  </form>
+					</div>
+				</header>
+				
+				<nav id="nav">
+					<ol id="menu">
+					
+						<li><a href="#">Categories</a>
+							<ol>
+								<li><a href="cseitAlgo.html">CSE and IT</a></li>
+								<li><a href="electronics.html">Electronics</a></li>
+								<li><a href="electrical.html">Electrical</a></li>
+								<li><a href="civil.html">Civil</a></li>
+								<li><a href="mechanical.html">Mechanical</a></li>
+							</ol>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ol>
+				</nav>	
+			</div>
+			<section id="section" style=margin:10px>
+           
+				
+				<!-- Contact Details Column -->
+				
+					<h3>Contact Details</h3>
+					<p>
+						Walchand College of Engineering,Sangli<br>
+					</p>
+					<p> 
+						Phone No: (123) 456-7890</p>
+					<p>
+						E-mail: <a href="mailto:name@example.com" style=color:yellow>wcesangliadmin@wcesangli.com</a>
+					</p>
+					<p>
+						Working Time: Monday - Friday: 9:00 AM to 5:00 PM
+					</p>
+					
+				
+			</section>
+			<!-- /.row -->
+
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

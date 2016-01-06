@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The TechShoppy:Electronics Category</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/branchstyle.css">
+		<script language="javascript" type="text/javascript">
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="big_wrapper">
+			<div id="wrapper">	
+				<header id="header">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></div></a>
+					<div id="search_box">
+					  <form action="Result" method="get">
+						<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+						<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+					  </form>
+					</div>
+				</header>
+				
+				<nav id="nav">
+					<ol id="menu">
+					
+						<li><a href="#">Categories</a>
+							<ol>
+								<li><a href="cseitAlgo.html">CSE and IT</a></li>
+								<li><a href="electronics.html">Electronics</a></li>
+								<li><a href="electrical.html">Electrical</a></li>
+								<li><a href="civil.html">Civil</a></li>
+								<li><a href="mechanical.html">Mechanical</a></li>
+							</ol>
+						</li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+					</ol>
+				</nav>	
+			</div>
+			<div id="mainsection">
+				
+				<div id="book_wrapper">
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Microprocessor+Architecture+,+Programming+,+and+Applications"><div id="text">Microprocessor Architecture, Programming, and Applications</div>
+							<img src="images/books/eln/microprocessor-architecture-programming-and-applications-with-the-8085.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=OP-AMPS+AND+LINEAR+INTEGRATED+CIRCUITS"><div id="text">OP-AMPS AND LINEAR INTEGRATED CIRCUITS</div>
+							<img src="images/books/eln/op-amps-and-linear-integrated-circuits.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Fundamentals+of+Digital+Circuits+by+Anand+Kumar"><div id="text">Fundamentals of Digital Circuits by Anand Kumar</div>
+							<img src="images/books/eln/fundamentals-of-digital-circuits.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>	
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Principles+of+Electromagnetics"><div id="text">Principles of Electromagnetics</div>
+							<img src="images/books/eln/principles-of-electromagnetics.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						
+					</div>
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Linear+Control+Systems+With+Matlab+Applications"><div id="text">Linear Control Systems With Matlab Applications</div>
+							<img src="images/books/eln/linear-control-systems-with-matlab-applications.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Electronic+Devices+and+Circuit+Theory"><div id="text">Electronic Devices and Circuit Theory</div>
+							<img src="images/books/eln/electronic-devices-and-circuits-theory.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=electronics&book=Electronic+Communication+Systems"><div id="text">Electronic Communication Systems</div>
+							<img src="images/books/eln/kennedy-s-electronic-communication-systems.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>

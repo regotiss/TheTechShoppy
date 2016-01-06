@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The TechShoppy:Mechanical Category</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/branchstyle.css">
+		<script language="javascript" type="text/javascript">
+			function clearText(field) {
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+			}
+		</script>
+	</head>
+	<body >
+		<div id="big_wrapper">
+			<div id="wrapper">	
+				<header id="header">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></div></a>
+					<div id="search_box">
+					  <form action="Result" method="get">
+						<input type="text" value="Enter keyword here..." name="book" size="10" id="searchfield"  onfocus="clearText(this)" onblur="clearText(this)"/>
+						<input type="submit" name="Search" value="" alt="Search" id="searchbutton" />
+					  </form>
+					</div>
+				</header>
+				
+				<nav id="nav">
+					<ol id="menu">
+					
+						<li><a href="#">Categories</a>
+							<ol>
+								<li><a href="cseitAlgo.html">CSE and IT</a></li>
+								<li><a href="electronics.html">Electronics</a></li>
+								<li><a href="electrical.html">Electrical</a></li>
+								<li><a href="civil.html">Civil</a></li>
+								<li><a href="mechanical.html">Mechanical</a></li>
+							</ol>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ol>
+				</nav>	
+			</div>
+			<div id="mainsection">
+				
+				<div id="book_wrapper">
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Fluid+Mechanics+and+Fluid+Power+Engineering"><div id="text">Fluid Mechanics and Fluid Power Engineering</div>
+							<img src="images/books/mech/fluid mechanics.jpg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Design+of+Machine+Elements"><div id="text">Design of Machine Elements</div>
+							<img src="images/books/mech/mcdesign.jpg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Heat+and+Mass+Transfer"><div id="text">Heat and Mass Transfer by P K Nag</div>
+							<img src="images/books/mech/hmt.jpg" width="150px" height="180px"/>
+							</a>
+						</div>	
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Thermodynamics+:+An+Engineering+Approach"><div id="text">Thermodynamics : An Engineering Approach </div>
+							<img src="images/books/mech/thermodynamics-an-engineering-approach.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						
+					</div>
+					<div id="booksection1">
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Mechanical+Vibrations+by+grover"><div id="text">Mechanical Vibrations</div>
+							<img src="images/books/mech/mech vibr.jpg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Textbook+of+Refrigeration+And+Air+Conditioning "><div id="text">Textbook of Refrigeration And Air Conditioning </div>
+							<img src="images/books/mech/a-textbook-of-refrigeration-and-air-conditioning.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+						<div class="book_panel">
+							<a href="Result?branch=mechanical&book=Internal+Combustion+Engines"><div id="text">Internal Combustion Engines </div>
+							<img src="images/books/mech/internal-combustion-engines.jpeg" width="150px" height="180px"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="the_footer">
+				Copyright &copy; 2015 <a href="#">WCE</a> | Designed by <a target="_blank"  href="#">GrNo:* Batch</a></div>
+			</footer>
+		</div>
+	</body>
+</html>
